@@ -174,7 +174,7 @@ You insert the key into the lock and turn it. The door clicks open, revealing a 
 &lt;&lt;set $has_key = true&gt;&gt;
 [[Enter Room]]
 
-&lt;&lt;else&gt;&gt;
+&lt;&lt;elseif $has_key == false&gt;&gt;
 That key doesn&#39;t work. Try again.
 [[Intro]]
 
